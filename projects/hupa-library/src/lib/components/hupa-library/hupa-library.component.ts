@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'lib-HupaLibrary',
   template: `
     <p>
-      99999999999999
+      888
     </p>
   `,
   styles: [
