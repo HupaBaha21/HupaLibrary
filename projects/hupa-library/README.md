@@ -1,3 +1,14 @@
+## Daniella's instructions
+
+To build and edit library while running application:
+1. RUN: "ng build HupaLibrary --watch"
+
+To add a component:
+1. RUN: "ng generate component components/{{COMPONENT}} --project HupaLibrary".
+2. ADD "{{COMPONENT}}Component" to the "hupa-library.module.ts" file in the "exports" part/list.
+3. ADD LINE "export * from './lib/components/{{COMPONENT}}/{{COMPONENT}}.component';" to "public-api.ts".
+Yay!
+
 # HupaLibrary
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
@@ -22,14 +33,3 @@ Run `ng test HupaLibrary` to execute the unit tests via [Karma](https://karma-ru
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-## Daniella's instructions
-
-To build and edit library while running application:
-1. RUN: "ng build HupaLibrary --watch"
-
-To add a component:
-1. RUN: "ng generate component components/{{COMPONENT}} --project HupaLibrary".
-2. ADD "{{COMPONENT}}Component" to the "hupa-library.module.ts" file in the "exports" part/list.
-3. ADD LINE "export * from './lib/components/{{COMPONENT}}/{{COMPONENT}}.component';" to "public-api.ts".
-Yay!

@@ -1,20 +1,14 @@
 import { NgModule } from '@angular/core';
-import { HupaLibraryComponent } from './components/hupa-library/hupa-library.component';
-import { PopUpComponent } from './components/pop-up/pop-up.component';
-import { ProductComponent } from './components/product/product.component';
+// import { HupaLibraryComponent } from './components/hupa-library/hupa-library.component';
 
 @NgModule({
   declarations: [
-    HupaLibraryComponent,
-    PopUpComponent,
-    ProductComponent,
+    // HupaLibraryComponent,
   ],
   imports: [
   ],
   exports: [
-    PopUpComponent,
-    ProductComponent,
-    HupaLibraryComponent,
+    // HupaLibraryComponent,
   ]
 })
 export class HupaLibraryModule { }

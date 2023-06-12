@@ -102,6 +102,13 @@
     },
     "HupaLibrary": {
       "projectType": "library",
+
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
+      
       "root": "projects/hupa-library",
       "sourceRoot": "projects/hupa-library/src",
       "prefix": "lib",
