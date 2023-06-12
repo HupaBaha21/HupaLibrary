@@ -23,6 +23,7 @@ Run `ng test HupaLibrary` to execute the unit tests via [Karma](https://karma-ru
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
+## Daniella's instructions
 
 To build and edit library while running application:
 1. RUN: "ng build HupaLibrary --watch"
